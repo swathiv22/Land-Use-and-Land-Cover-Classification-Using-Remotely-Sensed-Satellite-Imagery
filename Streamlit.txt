@@ -1,0 +1,36 @@
+# ACTIVATE environment (do this every time you open a new terminal)
+venv\Scripts\activate
+
+# DEACTIVATE when you're done
+deactivate
+
+# RUN your app
+streamlit run app.py
+
+# STOP your app
+# Press Ctrl + C in the terminal
+
+# UPDATE packages if needed
+pip install --upgrade package_name
+
+# EXPORT environment for others
+pip freeze > requirements.txt
+
+
+
+# 1. Open terminal in project folder
+cd C:\Users\swath\OneDrive\Desktop\final_Stream
+
+# 2. Activate environment
+venv\Scripts\activate
+
+# 3. Run app
+streamlit run app.py
+
+# 4. Make changes to your code
+# Streamlit will auto-reload when you save
+
+# 5. Stop app (Ctrl+C) when done
+
+# 6. Deactivate when finished
+deactivate
